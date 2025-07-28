@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo "Applying Flask deployment..."
-kubectl apply -f flask-deployment.yaml
+microk8s kubectl apply -f flask-deployment.yaml
 
 echo "Applying Flask service..."
-kubectl apply -f flask-service.yaml
+microk8s kubectl apply -f flask-service.yaml
 
-echo "Done! Use 'kubectl get pods' and 'kubectl get svc' to verify."
+echo "Done! Use 'microk8s kubectl get pods' and 'microk8s kubectl get svc' to verify."
