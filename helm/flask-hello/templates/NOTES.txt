@@ -1,0 +1,4 @@
+1. Application is deployed via Helm.
+2. Add this to /etc/hosts if needed:
+   127.0.0.1 flask.local
+3. Access the service at: http://flask.local
